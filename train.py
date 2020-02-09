@@ -211,7 +211,9 @@ def adjust_learning_rate(optimizer, gamma, step):
 
 
 def xavier(param):
-    init.xavier_uniform(param)
+    # editjyy
+    # init.xavier_uniform(param)
+    init.xavier_uniform_(param)
 
 
 def weights_init(m):
